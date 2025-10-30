@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "Sc26",
+  "name": "ScModernwebComponent",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "65.0"

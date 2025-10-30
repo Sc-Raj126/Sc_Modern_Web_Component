@@ -6,7 +6,7 @@ import Phone_field from '@salesforce/schema/Account.Phone';
 import Website_field from '@salesforce/schema/Account.Website';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
-export default class Sc26 extends LightningElement {
+export default class ScModernwebComponent extends LightningElement {
     @api recordId;
     
     objectApiName = Account_OBJECT;
