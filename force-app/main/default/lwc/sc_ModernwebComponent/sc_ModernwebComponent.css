@@ -1,0 +1,60 @@
+/* Professional Clean Component Styling */
+
+.card {
+    border-radius: 0.5rem;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Clean Header */
+.card-header {
+    background: linear-gradient(135deg, #1589ee 0%, #0d7bd9 100%);
+    color: white;
+    padding: 1.25rem 1.5rem;
+    margin: 0;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* Professional Form Styling */
+lightning-record-form {
+    display: block;
+    padding: 1.5rem;
+    background: #fafbfc;
+    
+    /* Enhanced form controls */
+    --slds-c-form-element-label-text-color: #2c3e50;
+    --slds-c-form-element-label-text-font-weight: 600;
+    --slds-c-input-color-background: white;
+    --slds-c-input-color-border: #d1d5db;
+    --slds-c-input-color-border-focus: #1589ee;
+    --slds-c-input-shadow-focus: 0 0 0 3px rgba(21, 137, 238, 0.1);
+    --slds-c-button-brand-color-background: #1589ee;
+    --slds-c-button-brand-color-background-hover: #0d7bd9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-header {
+        padding: 1rem;
+    }
+    
+    .card-header h2 {
+        font-size: 1rem;
+    }
+    
+    lightning-record-form {
+        padding: 1rem;
+    }
+}

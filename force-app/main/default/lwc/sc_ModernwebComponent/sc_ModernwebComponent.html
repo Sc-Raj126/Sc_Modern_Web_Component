@@ -1,0 +1,16 @@
+<template>
+    <div class="card">
+        <header class="card-header">
+            <h2>Account Dashboard</h2>
+        </header>
+        
+        <lightning-record-form
+            object-api-name={objectApiName}
+            record-id={recordId}
+            fields={fields}
+            mode="edit"
+            onsuccess={handlesuccess}
+            onerror={handleerror}>
+        </lightning-record-form>
+    </div>
+</template>
